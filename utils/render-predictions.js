@@ -31,7 +31,6 @@ export const renderPredictions = (predictions, ctx) => {
     ctx.fillStyle = "#000000";
     ctx.fillText(prediction.class, x, y);
 
-   
   });
 };
 
