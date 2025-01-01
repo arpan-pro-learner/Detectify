@@ -41,9 +41,11 @@ const ObjectDetection = () => {
       );
 
       //   console.log(detectedObjects);
-
-      const context = canvasRef.current.getContext("2d");
-      renderPredictions(detectedObjects, context);
+      if (detectedObjects.length > 0) { // Ensure there are detected objects
+        const context = canvasRef.current.getContext("2d");
+        renderPredictions(detectedObjects, context);
+      }
+      
     }
   }
 
