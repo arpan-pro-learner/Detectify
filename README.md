@@ -1,3 +1,23 @@
+# **Object Detection Web App (Detectify)**
+
+A real-time object detection application powered by TensorFlow.js and React, capable of identifying and highlighting objects in a webcam feed. Built with a focus on minimal design and user-friendly experience.
+
+## Tech Stack
+
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Machine Learning**: TensorFlow.js, COCO-SSD
+- **Other**: Vercel for deployment, GitHub for version control
+
+
+
+![Detect Gif](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ViMWU3dnc5amR5eDdpNmtoYnRoaHZ2Z3g4N2RmYTBrcXVnczRyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KeuFUkFtP05s0f3Egj/giphy.gif)
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
